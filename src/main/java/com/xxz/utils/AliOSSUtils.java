@@ -16,8 +16,8 @@ public class AliOSSUtils {
 
 //    @Value("${aliyun.oss.endpoint}")
     private String endpoint="https://oss-cn-hangzhou.aliyuncs.com";
-    private String accessKeyId = "LTAI5tGDymeBKpPqXNNRciR8";
-    private String accessKeySecret = "M1CIDm0VV2VYcDw914esc9yuIrtLqx";
+    private String accessKeyId =
+    private String accessKeySecret =
     private String bucketName = "web-xxz";
 
     /**
