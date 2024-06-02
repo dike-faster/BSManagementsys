@@ -19,12 +19,7 @@ spring:
       max-file-size: 10MB
       max-request-size: 100MB
 
-aliyun:
-  oss:
-    endpoint: https://oss-cn-hangzhou.aliyuncs.com
-    accessKeyId: LTAI5tGDymeBKpPqXNNRciR8
-    accessKeySecret: M1CIDm0VV2VYcDw914esc9yuIrtLqx
-    bucketName: web-xxz
+
 
 #spring事务管理日志
 logging:
