@@ -2,6 +2,7 @@ package com.xxz.controller;
 
 import com.xxz.Pojo.Dept;
 import com.xxz.Pojo.Result;
+import com.xxz.anno.Log;
 import com.xxz.service.DeptService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,7 @@ public class DeptController {
         return Result.success(deptList);
     }
     //删除员工数据
+    @Log
     @DeleteMapping("/{id}")
     public Result deleteDept(@PathVariable("id")Integer deptId){
         log.info("删除部门数据");
@@ -37,6 +39,7 @@ public class DeptController {
         return Result.success();
     }
     //增加部门数据
+    @Log
     @PostMapping
     public Result deleteDept(@RequestBody Dept dept){
         log.info("新增部门:{}",dept);
